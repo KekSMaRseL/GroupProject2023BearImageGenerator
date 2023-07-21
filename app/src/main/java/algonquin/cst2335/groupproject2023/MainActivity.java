@@ -84,6 +84,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Opening saved images...", Toast.LENGTH_SHORT).show();
                 Snackbar.make(v, "Opening saved images...", Snackbar.LENGTH_LONG).show();
 
+
+
                 // Start new SavedImagesActivity
                 Intent intent = new Intent(MainActivity.this, SavedImagesActivity.class);
                 startActivity(intent);
